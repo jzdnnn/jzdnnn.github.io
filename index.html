@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jizdan Mulkan Nailan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                container: {
+                    center: true,
+                    padding: {
+                        DEFAULT: "1rem",
+                        lg: "135px"
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Header -->
+    <section class="w-full bg-[#F6C71F] h-screen">
+        <div class="flex flex-col container h-full">
+            <!-- Navbar -->
+            <div class="flex flex-row justify-between pt-[58px]">
+                <img src="img/A5 Logo (1).png" width="100" length="100" />
+            </div>
+            <!-- End Navbar -->
+
+            <!-- Introduction -->
+            <div class="flex grow flex-row">
+                <!-- Left Side -->
+                <div class="flex flex-col justify-center lg:w-1/2 w-full">
+                    <p class="text-[20px] lg:text-[45px] leading-tight font-medium">
+                        Saya Jizdan Mulkan Nailan, <br />
+                        Mahasiswa Politeknik Negeri Bandung.
+                    </p>
+                    <p class="text-[18px] mt-[28px]">
+                        Saya merupakan mahasiswa yang sedang menempuh pendidikan di jurusan Teknik Komputer dan Informatika dengan program studi D4 Teknik Informatika. <br />
+                        Saya lahir di Garut pada tanggal 9 Juni 2005. Memiliki kegemaran pada bidang komputer menjadikan saya termotivasi untuk bisa masuk ke jurusan ini.
+                    </p>
+                    <div class="inline-flex mt-[100px] space-x-[24px]">
+                        <p class="inline-flex space-x-[24px] mt-[5px]">
+                            Web ini dibuat untuk memenuhi tugas pada mata kuliah Proyek 1 : Pengembangan Perangkat Lunak Desktop
+                        </p>                    
+                    </div>
+                    <div class="inline-flex space-x-[24px] mt-[100px]">
+                        <a href="https://api.whatsapp.com/send/?phone=6281324036672&text&type=phone_number&app_absent=0" target="_blank">
+                            <img src="img/icons8-whatsapp.svg" class="w-[24px]" alt="WhatsApp">
+                        </a>
+                        <a href="https://www.instagram.com/jzdnnn_/" target="_blank">
+                            <img src="img/icons8-instagram.svg" class="w-[24px]" alt="Instagram">
+                        </a>
+                        <a href="https://github.com/jzdnnn" target="_blank"> 
+                            <img src="img/icons8-github.svg" class="w-[24px]" alt="GitHub">
+                        </a>
+                    </div>
+                    
+                </div>
+
+                <!-- Right Side -->
+                <div class="hidden lg:grid w-1/2">
+                    <img src="img/Jizdan.png" class="w-5/6 place-self-end" style="display: block; position: relative; top: -45px;">
+                </div>
+            </div>
+            <!-- End Introduction -->
+        </div>
+    </section>
+    <!-- End Header -->
+
+
+    <!-- Portofolio -->
+    <section class="w-full container mt-[100px]">
+        <p class="text-[50px] font-bold">Maps</p>
+        <p>You can find me in the maps below!</p>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.203646578523!2d107.57111551089736!3d-6.866182967150624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e597e4c109a5%3A0xce756d7eaa25e868!2sPondok%20Gerbal!5e0!3m2!1sid!2sid!4v1709049151628!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="inline-flex space-x-[24px] mt-[80px] text-[20px] text-neutral-500 truncate">
+            <span class="text-neutral-900 font-bold">Gallery</span>
+            <span>Gallery</span>
+            <span>Web Development</span>
+            <span>UI & UX</span>
+            <span>Game Development</span>
+        </div>
+        <div id="Gallery">
+            <div class="grid grid-cols-2 lg:grid-cols-3 gap-[40px] mt-[20px]">
+                <div class="aspect-square bg-zinc-100 rounded-xl">
+                    <video controls class="object-cover w-full h-full rounded-xl">
+                        <source src="img/Sagara1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="aspect-square bg-zinc-100 rounded-xl"></div>
+                <div class="aspect-square bg-zinc-100 rounded-xl"></div>
+                <div class="aspect-square bg-zinc-100 rounded-xl"></div>
+                <div class="aspect-square bg-zinc-100 rounded-xl"></div>
+                <div class="aspect-square bg-zinc-100 rounded-xl"></div>
+                <div class="aspect-square bg-zinc-100 rounded-xl"></div>
+                <div class="aspect-square bg-zinc-100 rounded-xl"></div>
+                <div class="aspect-square bg-zinc-100 rounded-xl"></div>
+        </div>
+        
+        <div id="web-development">
+            <!-- Konten Web Development -->
+        </div>
+        
+        <div id="ui-ux">
+            <!-- Konten UI & UX -->
+        </div>
+        
+        <div id="game-development">
+            <!-- Konten Game Development -->
+        </div>
+        
+        </div>
+    </section>
+    <!-- End Portofolio -->
+
+    <div class="border border-neutral-500 w-1/3 container my-[200px]"></div>
+</body>
+
+</html>
